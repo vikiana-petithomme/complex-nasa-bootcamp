@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-image: url('nasa1.avif');
+    background-size:contain;
+    background-repeat: repeat;
+}
+section {
+    border: 1px solid white;
+    box-shadow: 3px 5px 5px rgb(243, 243, 252);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width:50%;
+    align-items: center;
+    padding-left:5%;
+    padding-right:5%;
+    margin-left: auto;
+    margin-right:auto;  
+    margin-bottom:3%;
+}
+h1 {
+    color:white;
+    font-size:5rem;
+    text-align: center;
+    width:100%;
+}
+h2{
+    color: white;
+    width:100%;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom:0px;
+}
+
+h3 {
+    float:left;
+    font-size:2rem;
+    color:white;
+}
+
+span {
+    float:left;
+    color:red;
+    font-size:2rem;
+}
